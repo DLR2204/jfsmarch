@@ -1,0 +1,132 @@
+on -1 ,off - 0 ---------------------------->  Ascii/Unicode
+							a-97-010101010
+							
+	s.l:- designing of websites
+	
+	p.l :-developing softwares
+							
+								computer lang 
+								
+				scripting lang				programming lang
+		html,css,...........			pop					oop
+								
+									basic,....			java,.net,....
+									
+Secuirty:- Abstraction,Encapsulation
+
+Performance:- Polymorphism,Inheritance								
+									
+									
+									
+									
+java :-   oops ------>  oopl
+
+(1)portable 
+
+(2)Garbage Collector
+
+SUNMICROSYS'S:-                              oracle
+-------------
+
+GreenTalk(.gt)--------------->oak------------>java(.java)
+
+jdk 1.0 ------------------------------------->jdk 24
+
+
+jse/j2se:-standalone app's(core java)
+
+jee/j2ee:-Web app's/distributed app's(Adv java)
+
+jme/j2me:- Mobile app's(Micro java)
+
+	java cmd:- java --version				
+	
+	
+	53 reserved words
+	
+	ide shortcuts :- 
+	--------------
+	
+	main :- ctrl + space 
+	
+	syso :- ctrl + space
+	
+	
+	varaibles :- 
+	
+	
+	syntax:-     datatype varname ;   //declaration
+	
+				datatype varname = value ;   //intiliazation
+	
+				
+				
+				2 types :- 
+				
+		local varaibles(inside the method)		global variables(outside the method)
+		
+												static g.v  		instance g.v
+												
+	
+syntax :- 
+=======
+
+static :-   static datatype varname = value ; 
+
+instance:-   datatype varname = value ; 
+									
+access :- 
+-------									
+									
+static :- static prop's can be accessed by the class reference.
+
+instance:- instance prop's can be accessed with the object reference.
+
+				syntax :- 
+				
+				
+		classname objectname = new classname();
+		
+Memory space:- 
+-------------
+		
+static :- It will  gets memory space only once when the class loads into jvm
+
+instance:- It will gets the memory space for every object creation
+
+Usage:- 
+-------
+
+static :- Common data
+
+instance:- 	Unique data								
+
+In the memory:- 
+=============
+
+static :- method area
+
+instance :- heap area
+
+
+
+Operators :- 		ULTRA AB
+===========
+
+				a  +  b
+Uniary Operator
+
+Logical Operator
+
+Terinary Operator
+
+Relational Operator
+
+Assignment Operator
+
+Arithematic Operator
+
+Bitwise Operator
+
+
+
