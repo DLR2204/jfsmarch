@@ -129,4 +129,109 @@ Arithematic Operator
 Bitwise Operator
 
 
+Methods :- Set of statements where they will executes altogether to perform one task.
+=======
+				
+		SYNTAX :- 
+					
+					AccessModifier returnType methodName(params....){
+					
+					//body
+					}
 
+
+
+					(1)static methods
+					
+			syntax:-
+			========
+
+						AccessModifier static returnType methodName(params....){
+					
+							//body
+							}
+			
+					(2)Dynamic methods
+					
+			syntax:-
+			========
+
+						AccessModifier returnType methodName(params....){
+					
+							//body
+							}		
+					
+					
+		*class = variables(class members) + methods(member functions) 
+		
+		
+		*n objects
+		
+		syntax:- 
+		
+		className objectName ;  //declaration of object
+		
+		className objectName = new ClassName();  //intiliazation of the object
+		
+		
+		
+		Inheritance :- Accuqring parent class features to the child class
+		------------
+					extends 					implements
+				class-->class					interface--->class
+					
+		
+
+			class A {   //parent/super
+			
+			100 methods
+			}
+			class B extends A{  //child/sub/base
+			
+			100 methods
+			
+			}	
+		
+		
+		class A{			Class B{		
+		
+		add(a,b)			add(a,b)
+		
+		}					}
+
+
+		class C extends A,B{
+		
+		add(,);  
+		
+		}
+
+
+		*Multiple inheritace is not supported in java @Class level
+		
+		*Multiple Inheritance is supported in java @ interface level
+		
+		methods :- 2 types 
+		
+		
+		(1)concrete methods :-  method with method body
+		
+		syntax:-
+		========
+
+						AccessModifier returnType methodName(params....){
+					
+							//body
+							}	
+		
+		(2)abstract methods :- method without method body
+		
+		syntax:-
+			========
+
+						AccessModifier returnType methodName(params....);
+						
+						
+		class = it's the only collection of concrete methods in it.
+		
+		interface = it's the only collection of abstract method in it.
