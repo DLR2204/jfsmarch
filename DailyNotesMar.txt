@@ -175,11 +175,14 @@ Methods :- Set of statements where they will executes altogether to perform one 
 		
 		
 		
-		Inheritance :- Accuqring parent class features to the child class
+		Inheritance :- Accuqring parent class prop's to the child class
 		------------
+							*Code Reusability
+		
+		
 					extends 					implements
 				class-->class					interface--->class
-					
+				interface-->interface	
 		
 
 			class A {   //parent/super
@@ -188,7 +191,7 @@ Methods :- Set of statements where they will executes altogether to perform one 
 			}
 			class B extends A{  //child/sub/base
 			
-			100 methods
+			  ------------->100 methods
 			
 			}	
 		
@@ -234,4 +237,28 @@ Methods :- Set of statements where they will executes altogether to perform one 
 						
 		class = it's the only collection of concrete methods in it.
 		
+		abstract class = collection of concrete methods + collection of abstract methods
+		
 		interface = it's the only collection of abstract method in it.
+		
+		
+		Abstraction :- Hiding the data
+		------------
+							*Secuirty
+		
+		interface       100%
+		
+		abstract class  0%-100%
+		
+		class			0%
+		
+		
+		Polymorphism :- 
+		------------
+		
+		(1)methodOverloading :- same method names but with diff parameters
+								(a)type of parameters
+								(b)order of parameters
+								(c)number of parameters
+		
+		(2)MethodOverriding
