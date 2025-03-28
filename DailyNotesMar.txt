@@ -253,7 +253,7 @@ Methods :- Set of statements where they will executes altogether to perform one 
 		class			0%
 		
 		
-		Polymorphism :- 
+		Polymorphism :- 		*Code resuability 		
 		------------
 		
 		(1)methodOverloading :- same method names but with diff parameters
@@ -261,4 +261,54 @@ Methods :- Set of statements where they will executes altogether to perform one 
 								(b)order of parameters
 								(c)number of parameters
 		
-		(2)MethodOverriding
+		(2)MethodOverriding:- same method name but with diff implementation/body
+		
+		class Parent{
+		
+		10,000Cr()
+		
+		marriage()
+		
+		relatives()
+		
+		}
+		
+		
+		class Child extends Parent{
+		
+		@Override
+		marriage(){
+		//deepika
+		}
+		
+		}
+		
+		Encapsulation:- It will wraps the data  into single unit
+		==============
+		
+	Parent Class For every java file      :- java.lang.Object
+	
+	Default package for every java file   :- java.lang
+	
+	
+	Constructor :- To initialize the objects.
+	-----------  
+	
+	(1)default Constructor
+	
+	syntax:- 			accessModifier className(){
+							
+							//body
+	
+							}
+	
+	
+	(2)Parametrized constructor
+	
+		syntax:- 			accessModifier className(params...){
+							
+							//body
+	
+							}
+							
+*Constructor call must be the first statement in a constructor.
