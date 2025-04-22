@@ -346,3 +346,212 @@ Limitations:-
 		(2)Not fixed in size
 		
 		(3)Lots of utility methods
+		
+		
+		
+		FileHandling:-  java.io
+		
+		
+		(1)create a file 			:- File
+		
+		
+		(2)write into the file		:- FileWriter
+									   BufferedWriter
+									   PrintWriter
+		
+		
+		(3)Read from the file		:- FileReader
+									   BufferedReader
+										
+										
+										
+		interface :- 
+		
+		0 - marker interface
+		
+		1 - functional interface(sam)
+		
+		
+		String:- 
+		======
+		
+		String name = value;   //string literal
+		
+		
+		String 						StringBuffer 				StringBuilder
+		
+		immutable					mutable						mutable
+		
+									sync						not-sync
+									
+		Mutli-Threading:- Running more than one threads at a time.
+		
+		
+		junit :- java unit testing
+		
+		
+		
+		
+		Data:-Raw info any real world entites
+		====
+		
+		Database:- To store the data in an organized way for future access by providing security
+		
+		RDBMS:- tables (rows[records] + columns[fields])  ---Sql,MySql
+		
+		
+		Query :- A command in db to perform any opertion
+		
+		
+		DDL(Data Definition Lang):- create ,alter,drop ,truncate,rename [auto-comitted]
+		
+		DML(Data Manipulation Lang):- insert,update,delete [not auto-comitted]
+		
+		DRL(Data Retrival lang):- select 
+		
+		DCL (Data control lang):- grant,revoke
+		
+		TCL(Trans'n Control Lang):- commit,rollback
+	
+		
+		drop  :- it will deletes the entire table 
+		
+		truncate :- it will deletes the records inside the table.
+		
+		delete :- it will deletes the required records.
+		
+									jdbc
+									====
+									
+	
+	(1)Loading driver classes
+	
+	(2)Creating the connection
+	
+	(3)create the statement
+	
+	(4)excute the statement
+	
+	(5)close the connections
+		
+		
+		
+		Limitations:- 
+		-----------
+
+	(1)Queries
+	
+	(2)Table creation 
+	
+	(3)same files for db prop's, logic
+	
+	(4)Boiler plate code(repeated code)
+		
+		
+
+	jpa(Java Persistence API):- SPECIFICATIONS
+	--------------------------
+		
+
+		
+		
+	ORM(Object Relational Mapping) Tools:- hibernate,ecllipse ,toplink ,ibatis.......
+	
+	
+	(1)No Queries  ----  methods    
+	
+	(2)No Table creation  ---- java class
+	
+	class---------->table
+	
+	variables ---------->columns
+	
+	objects ------------>rows
+	
+	(3)diff files for db prop's, logic    ---- db:- persistence.xml
+	
+	persistence.xml:- 
+	
+				tag:- 	<predefined word>
+				
+				(1)container/pair :- <predefined word></predefined word>
+				
+				(2)single/empty :- <predefined word> or </predefinedword>
+					
+	
+	(4)No Boiler plate code(repeated code)
+		
+	
+	Persistence
+		|
+		
+	EntityManagerFactory
+		|
+	EntityManager
+	
+	
+	
+	Maven :- It's a build tool.
+	
+								Spring:-
+								=======
+								
+	def:- Spring is a non-invasive framework which is used to develop light-weighted and
+				loosely coupled web applications.
+				
+				
+		invasive :- it will rushes the programmer to use the predefined api
+		
+		non-invasive :- it will not rushes the programmer to use the predefined api
+		
+		
+		heavy-weighted  
+		
+		ligth-weighted 
+		
+		class A{
+		10000 METHODS
+		}
+		
+		class B extends A{
+		1 method
+		
+		}
+		
+		class C extends B{
+		
+		1 METHOD
+		
+		}
+		
+		Tightly coupled :- If the dependencies b/n the classes are very high
+		
+		Loosely coupled :- If the dependencies  b/n the classes are low
+		
+		
+		Spring Core ;Spring Boot ;Spring Rest;Spring Secuirty;Spring Cloud....................
+		
+		
+								Spring Core :- 
+								-----------
+		To avoid the dependencies b/n the classes by avoiding object creation .
+		
+		
+		Containers:- To create the objects.
+		
+					(1)BeanFactory
+					
+					(2)Application Context
+					
+		Dependency Injection :- To inject the data into the object
+		
+					(1)Setter Injection
+					
+					(2)Constructor Injection
+					
+		
+		Configuration :- (1)Xml Configuration
+		
+						(2)Annotation Configuration
+		
+		
