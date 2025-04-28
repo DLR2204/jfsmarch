@@ -534,7 +534,7 @@ Limitations:-
 		
 								Spring Core :- 
 								-----------
-		To avoid the dependencies b/n the classes by avoiding object creation .
+		To avoid the dependencies b/n the classes by avoiding object creation .===>Loosely coupled app
 		
 		
 		Containers:- To create the objects.
@@ -545,9 +545,9 @@ Limitations:-
 					
 		Dependency Injection :- To inject the data into the object
 		
-					(1)Setter Injection
+					(1)Setter Injection  :- <property>
 					
-					(2)Constructor Injection
+					(2)Constructor Injection  :- <constructor-arg>
 					
 		
 		Configuration :- (1)Xml Configuration
@@ -555,3 +555,26 @@ Limitations:-
 						(2)Annotation Configuration
 		
 		
+		
+		Autowiring :- Injecting the data(D.I)
+		
+		
+							SpringBoot:- 
+							==========
+							
+	
+		(1)AutoConfiguration(@EnableAutoConfig)
+		
+		(2)downloads the embedded server :- apache tomcat :8080
+		
+		(3)starters :- set of jar files
+		
+		(4)Actuators :- Gives the health/status of the application through end point urls
+		
+		
+		
+		controller  :- It will interact with the frontend through api's
+		
+		dao/repo  :- It will interact with the database
+		
+		services  :- It is the mediator b/n controller and dao
