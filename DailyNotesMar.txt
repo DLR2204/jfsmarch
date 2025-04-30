@@ -578,3 +578,65 @@ Limitations:-
 		dao/repo  :- It will interact with the database
 		
 		services  :- It is the mediator b/n controller and dao
+		
+		
+		SpringRest:- 
+		===========
+		
+		webservices:- It will enables the interaction b/n two interoperable app's.
+		------------
+		
+			(1)Soap:- It will only supports xml format
+			[simple object access program]
+			
+			(2)Rest:- It will uses xml,json,html,..... 
+			[Representational state transfer]
+			
+			
+								Frontend
+								========
+								
+		website :- collection of webpages
+		
+					(1)static webpages :- changes will not happens regularly
+					
+					(2)dynamic webpages :- changes will happens regularly
+					
+					(3)server webpages :- data form the static nd dynamic webpages will get stored .
+					
+					
+		HTML :- Hyper Text Markup Lang
+		
+		notepad  :- .html/.htm
+		
+		
+		tag:- 	<predefined word>    ====> 2 types 
+				
+				(1)container/pair :- <predefined word></predefined word>
+				
+				(2)single/empty :- <predefined word> or </predefinedword>
+				
+				
+				
+				<tag class="value">Statements</tag>   -------------->elements in html
+		
+		(1)Text Format Tags:- 
+		
+		<i></i>
+		
+		<b></b>
+		
+		<u></u>
+		
+		<strike></stike>
+		
+		<sub></sub>
+		
+		<sup></sup>
+		
+		
+		
+		
+		
+		
+		
