@@ -635,6 +635,33 @@ Limitations:-
 		<sup></sup>
 		
 		
+		Linking tag :- 
+		
+		(1)Text linking 
+		
+		(2)image linking
+		
+							Css(Cascading Style sheet)
+							------------------------
+							
+			(1)Inline Styling :- style attr inside the opening tag
+			
+			(2)Internal Styling :- <style> tag inside the <head> tag
+			
+			(3)External Styling :- attaching .css file to .html file
+			
+			
+			
+selectors :- 
+---------
+		
+	(1)tag name  :- h1,p,input
+
+	(2)id        :- #id name
+	
+	(3)class 	:- .class name
+	
+	(4)universal   :- * 
 		
 		
 		
