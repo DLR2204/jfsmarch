@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwitchEx</title>
+    <script>
+        function perc(){
+
+            document.getElementById("perc").value=(document.getElementById("om").value/document.getElementById("mm").value)*100;
+
+            var percentage = document.getElementById("perc").value;
+
+            var gpa = Math.floor(percentage/10);
+
+            document.getElementById("gpa").value=gpa;
+
+
+
+        }
+
+
+
+        </script>
+</head>
+<body>
+    <h1 align="center">Percentage & Grade Calculator</h1>
+
+    <h2>Enter your obtained marks:- <input type="text" id="om"></h2>
+
+    <h2>Enter your max marks :- <input type="text" id="mm"></h2>
+
+
+    <button type="button" onclick="perc()">CheckResult</button>
+
+    <h2 align="center">Your percentage is :- <input type="text" id="perc"></h2>
+
+    <h2 align="center">Your gpa is:- <input type="text" id="gpa"></h2>
+
+    <h2 align="center">Your Grade is :- <input type="text" id="grade"></h2>
+
+</body>
+</html>
