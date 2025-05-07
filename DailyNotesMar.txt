@@ -662,6 +662,60 @@ selectors :-
 	(3)class 	:- .class name
 	
 	(4)universal   :- * 
+	
+	
+	
+							Javascript
+							==========
+							
+
+(1)To create dynamic and interactive webpages
+
+(2)To change the html content
+
+(3)To change the html attributes
+
+(4)To change the css 
+
+(5)To hide the data
+
+			(1)internal Scripting:- <script> inside the <head>/<body>
+			
+			(2)External Scripting :- attaching external .js file to the .html file
+
+			
+	The outputs function in js :- 
+
+		(1)innerHtml :- it will display's the given data in the webpage through the html tag
+		
+		(2)document.write():- it will display the given data in the webpage
+		
+		(3)window.alert() :-it will display the given data in the alert box
+
+		(4)console.log():- it will display the given data in the console window		
+
+
+			varaibles :- 
+			---------
+			
+			dt var = value;
+			
+			
+			var varName = value;   //initialization of a variables
+			
+			var varname;           //declaration of a variable
+			
+			
+			function funName(Parms....){
+			
+			//function body
+			
+			
+			}
+								
+								
+			
+								
 		
 		
 		
